@@ -6,6 +6,7 @@
     background-repeat: no-repeat;
     position: relative;
     color:#fff;
+    margin-top:50px;
 }
 .banner-image {
     width: 100%;
@@ -27,4 +28,22 @@ div#tsparticles {
 .banner-content {
     z-index: 9;
     position: relative;
+}
+
+@media only screen and (max-width:480px) {
+    .banner-content {
+        padding-bottom: 20px;
+    }
+    .banner-content h1 {
+        font-size: 50px;
+        margin-top:20px;
+        margin-bottom: 10px;
+    }
+    .banner-contant h2 {
+        font-size: 35px;
+        margin-bottom: 15px;
+    }
+    .banner-image img {
+        width:100%
+    }
 }
