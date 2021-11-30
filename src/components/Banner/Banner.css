@@ -6,7 +6,7 @@
     background-repeat: no-repeat;
     position: relative;
     color:#fff;
-    margin-top:50px;
+    margin-top:70px;
 }
 .banner-image {
     width: 100%;
@@ -24,6 +24,7 @@ div#tsparticles {
     position:absolute;
     top:0;
     left: 0;
+    width: 100%;
 }
 .banner-content {
     z-index: 9;

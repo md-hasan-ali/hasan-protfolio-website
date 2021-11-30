@@ -36,7 +36,7 @@ const projects = [
 
 const MyProject = () => {
     return (
-        <div className='my-projects py-5' id='about'>
+        <div className='my-projects py-5' id='projects'>
             <div className="container">
                 <div className="section-title pb-4 text-center">
                     <h2>My Latest Works</h2>
